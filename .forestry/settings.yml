@@ -12,7 +12,7 @@ sections:
 upload_dir: public
 public_path: "/public"
 front_matter_path: public
-use_front_matter_path: true
+use_front_matter_path: false
 file_template: ":filename:"
 build:
   preview_output_directory: ".next"

@@ -50,3 +50,4 @@ fields:
   description: person
 pages:
 - posts/some-things-about-canvey.md
+- posts/some-things-about-london.md

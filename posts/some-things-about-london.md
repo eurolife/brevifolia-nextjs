@@ -5,6 +5,9 @@ date: 2021-11-10T00:00:00.000+00:00
 hero_image: "/static/mahkeo-monkey.jpg"
 image: ''
 person:
+- name: Someone else
+  bio: sdf
+  photo: "/static/mahkeo-monkey.jpg"
 - name: Paula Hightower
   bio: sdfsdf
   photo: "/paula.jpg"

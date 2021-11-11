@@ -4,10 +4,9 @@ auto_deploy: false
 admin_path: 
 webhook_url: 
 sections:
-- type: directory
+- type: document
   path: pages
-  label: Pages
-  create: all
+  label: Home
   match: "**/*"
 - type: directory
   path: posts

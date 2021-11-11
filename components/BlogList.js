@@ -27,7 +27,7 @@ const BlogList = ({ allBlogs }) => {
                     />
                   </div>
                   <div className="blog__info">
-                    <h2>{post.frontmatter.title} lskdfj</h2>
+                    <h2>{post.frontmatter.title}</h2>
                     <h3> {reformatDate(post.frontmatter.date)}</h3>
                     <p>
                       <ReactMarkdown

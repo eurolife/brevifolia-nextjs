@@ -11,9 +11,7 @@ export default function Meta(props) {
             </Head>
             <style jsx global>
                 {`
-                    @import url("https://fonts.googleapis.com/css?family=Work+Sans&display=swap");
-
-                    * {
+                * {
                     box-sizing: inherit;
                     }
                     html {
@@ -142,7 +140,6 @@ export default function Meta(props) {
                     line-height: 1.45rem;
                     }
 
-                    {/* //TYPOGRAPHY------------------------------------- */}
 
                     h1,
                     h2,

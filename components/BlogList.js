@@ -41,7 +41,7 @@ const BlogList = ({ allBlogs }) => {
       </ul>
       <style jsx>
         {`
-          margin-bottom: 0;
+          .list { margin-bottom: 0; }
           a:hover {
             opacity: 1;
           }

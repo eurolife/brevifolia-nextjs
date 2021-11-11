@@ -1,8 +1,10 @@
 import matter from 'gray-matter'
 import Layout from '../components/Layout'
 import BlogList from '../components/BlogList'
+import yaml from "js-yaml";
 
 const Index = props => {
+  console.log(props)
   return (
     <Layout
       pathname="/"
@@ -35,6 +37,8 @@ export async function getStaticProps() {
       const value = values[index]
       // Parse yaml metadata & markdownbody in document
       const document = matter(value.default)
+      console.log(document)
+      document.data.date = document.data.date.toString()
       return {
         frontmatter: document.data,
         markdownBody: document.content,

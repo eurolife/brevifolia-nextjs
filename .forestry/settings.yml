@@ -1,8 +1,8 @@
 ---
 new_page_extension: md
 auto_deploy: false
-admin_path: 
-webhook_url: 
+admin_path: ''
+webhook_url: https://api.github.com/repos/eurolife/brevifolia-nextjs/dispatches
 sections:
 - type: directory
   path: posts

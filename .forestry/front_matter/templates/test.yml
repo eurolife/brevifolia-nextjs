@@ -48,3 +48,5 @@ fields:
     labelField: 
   label: Person
   description: person
+pages:
+- posts/some-things-about-canvey.md

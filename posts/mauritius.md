@@ -1,5 +1,5 @@
 ---
-title: The hidden paradise Canvey
+title: The hidden paradise Canvey island
 author: Father John Misty
 date: 2019-07-09T16:05:29Z
 hero_image: "../static/john-o-nolan-mauritius.jpg"
